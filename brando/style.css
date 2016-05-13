@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'brando';
+    src:
+        url('fonts/brando.ttf?ahg695') format('truetype'),
+        url('fonts/brando.woff?ahg695') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'brando' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin-square:before {
+    content: "\f08c";
+}
+.icon-twitter:before {
+    content: "\f099";
+}
+.icon-github:before {
+    content: "\f09b";
+}
+.icon-bullhorn:before {
+    content: "\f0a1";
+}
+.icon-instagram:before {
+    content: "\f16d";
+}
+.icon-lastfm:before {
+    content: "\f202";
+}
+.icon-medium:before {
+    content: "\f23a";
+}
+.icon-mixcloud:before {
+    content: "\f289";
+}
+

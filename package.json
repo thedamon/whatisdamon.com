@@ -1,0 +1,21 @@
+{
+  "name": "whatisdamon",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "whatisdamon"
+  },
+  "author": "Damon Muma",
+  "license": "ISC",
+  "dependencies": {
+    "material-design-lite": "^1.1.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1"
+  }
+}
